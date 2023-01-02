@@ -1,3 +1,41 @@
 .header{
-    color: #fff;
+    display: flex;
+    padding: 20px 70px 0px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo{
+    margin: 0px;
+}
+
+.headerLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLinks li{
+    margin:0;
+    padding: 0px 0px 0px 32px;
+}
+
+.headerLinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+}
+
+.headerLinks li a:hover {
+    color: #06BCC1;
+}
+
+.headerLogo, .headerLinks li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    list-style: none;
+    
 }
