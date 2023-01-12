@@ -1,0 +1,21 @@
+
+.title{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 0px;
+    max-width: 75%;
+}
+
+.about{
+    padding: 215px 150px 400px 70px;
+
+}
