@@ -1,8 +1,7 @@
 import React from "react";
-import '../styles/home.css'
-import face from '../images/Face.svg'
+import '../styles/contact.css'
 
-export default function Home(){
+export default function Contact(){
     
     return(
         <div className="home">
@@ -11,7 +10,6 @@ export default function Home(){
                 <p className="position">Front-end developer</p>
                 <button className="downloadButton">Download CV</button>
             </div>
-            <img src={face} alt="Face" className="faceImage"></img>
         </div>
     )
 }

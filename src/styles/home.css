@@ -1,8 +1,8 @@
 .home{
-    padding: 215px 150px 400px 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    height: 900px;
 }
 
 .infoContainer{
@@ -16,6 +16,8 @@
     font-size: 4rem;
     color: #FFFFFF;
     margin-top: 0px;
+    margin-bottom: 10px;
+
 
 }
 
