@@ -1,0 +1,9 @@
+body{
+    background-color: #090E16;
+    font-family: 'Raleway';
+}
+
+section{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

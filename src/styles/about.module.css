@@ -1,0 +1,23 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+.title{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 0px;
+}

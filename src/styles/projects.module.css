@@ -1,25 +1,15 @@
-
-.about{
+.projects{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    height: 900px;
+    align-items: center;
+    height: 800px;
     flex-direction: column;
-    padding-left: 100px;
-    max-width: 80%;
 }
 
 .title{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 3rem;
-    color: #FFFFFF;
-    margin-top: 0px;
-}
-
-.text{
-    font-weight: 500;
-    font-size: 2rem;
     color: #FFFFFF;
     margin-top: 0px;
 }
