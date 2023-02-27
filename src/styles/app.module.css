@@ -6,4 +6,5 @@ body{
 section{
     overflow-y: hidden;
     overflow-x: hidden;
+    height: 1300px;
 }

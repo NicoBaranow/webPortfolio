@@ -1,5 +1,4 @@
 import {React} from 'react';
-import AOS from 'aos';
 
 import Header from './components/header'
 import Home from './components/home'
@@ -12,35 +11,27 @@ import styles from './styles/app.module.css'
 
 function App() {
 
-  AOS.init({duration: 1200})
-
   return (
     <div className={styles.container}> 
-      <section data-aos="fade-down">
-        <Header/>
-      </section>
+      <Header/>
       
       <section>
         <Home/>
       </section>
 
-      <section data-aos="fade-up"
-      data-aos-anchor-placement="top-center">
+      <section>
         <Skills/>
       </section>
 
-      <section data-aos="fade-up"
-      data-aos-anchor-placement="top-center">
+      <section>
         <Projects/>
       </section>
 
-      <section data-aos="fade-up"
-      data-aos-anchor-placement="top-center">
+      <section>
         <About/>
       </section>
 
-      <section data-aos="fade-up"
-      data-aos-anchor-placement="top-center">
+      <section>
         <Contact/>
       </section>
     </div>

@@ -20,13 +20,14 @@
     padding: 0px 0px 0px 32px;
 }
 
-.headerLinks li a {
+.headerLinks li  {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
-.headerLinks li a:hover {
+.headerLinks li:hover {
     color: #06BCC1;
 }
 
@@ -40,3 +41,6 @@
     list-style: none;
     
 }
+
+
+  

@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     flex-direction: column;
+
+    height: 100%;
 }
 
 .title{
@@ -14,14 +15,42 @@
     margin: 0px;
 }
 
-.images{
-    list-style: none;
+.allSkillsCards{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
-.images li img{
+.skillCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0 20px 0px;
+    width: 400px;
+    height: 400px;
+}
+
+.skillCardLogo{
     height: 200px;
-    width: 100%;
+    padding-bottom: 20px;
+   
+}
+.skillCardName{
+    color: #FFFFFF;
     
+    width: 80%;
+
+}
+.skillCardUsage{
+    color: #bababa;
+    width: 80%;
 }
